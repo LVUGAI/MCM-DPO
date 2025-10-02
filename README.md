@@ -1,4 +1,9 @@
+
 <div align="center">
+MCM-DPO: Multifaceted Cross-Modal Direct Preference Optimization for Alter-text Generation
+ </div>   
+
+<div align="left">
 
 ### ACM MM 2025
 
