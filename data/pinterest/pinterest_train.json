@@ -1,0 +1,142 @@
+[
+  {
+    "ds_name": "pinterest_data",
+    "image": {
+      "path": "5e99e681c9f14abfec9fe022c21b9d7b.jpeg"
+    },
+    "question": "given an image and context, generate alt-text for the image.\ncontext:\nmy favorite pantry meal:  korean tuna rice bowl, also known as person! a quick and satisfying meal made with canned tuna, rice, and spicy kimchi.  a drizzle of kewpie mayo and sesame oil adds richness. top with a shower of green onion and roasted seaweed snack (called person in korean) to make this 10-minute meal feel extra special and luxurious!",
+    "chosen": "bowl filled with korean tuna rice bowl, or chamchi deopbap",
+    "rejected": "the ingredients for this korean rice bowl are shown",
+    "text": "{\"question\": \"given an image and context, generate alt-text for the image.\\ncontext:\\nmy favorite pantry meal:  korean tuna rice bowl, also known as person! a quick and satisfying meal made with canned tuna, rice, and spicy kimchi.  a drizzle of kewpie mayo and sesame oil adds richness. top with a shower of green onion and roasted seaweed snack (called person in korean) to make this 10-minute meal feel extra special and luxurious!\", \"chosen\": \"bowl filled with korean tuna rice bowl, or chamchi deopbap\", \"rejected\": \"the ingredients for this korean rice bowl are shown\"}",
+    "origin_dataset": "pinterest",
+    "origin_split": "{}",
+    "idx": 5,
+    "image_path": "5e99e681c9f14abfec9fe022c21b9d7b.jpeg"
+  },
+  {
+    "ds_name": "pinterest_data",
+    "image": {
+      "path": "93ef6d7ce54da394e2eb1ae574105674.jpeg"
+    },
+    "question": "given an image and context, generate alt-text for the image.\ncontext:\none of my favourite ways to enjoy dumplings is by either steaming or boiling these and finishing it off with what i like to call the best or the ultimate sauce - with the perfect balance of savoury, heat, bit of sweetness and acidity. let’s not forget the aromatics that really take it up a notch!",
+    "chosen": "steamed dumplings in a tasty sauce with chili oil",
+    "rejected": "some dumplings are sitting on a white plate",
+    "text": "{\"question\": \"given an image and context, generate alt-text for the image.\\ncontext:\\none of my favourite ways to enjoy dumplings is by either steaming or boiling these and finishing it off with what i like to call the best or the ultimate sauce - with the perfect balance of savoury, heat, bit of sweetness and acidity. let’s not forget the aromatics that really take it up a notch!\", \"chosen\": \"steamed dumplings in a tasty sauce with chili oil\", \"rejected\": \"some dumplings are sitting on a white plate\"}",
+    "origin_dataset": "pinterest",
+    "origin_split": "{}",
+    "idx": 29,
+    "image_path": "93ef6d7ce54da394e2eb1ae574105674.jpeg"
+  },
+  {
+    "ds_name": "pinterest_data",
+    "image": {
+      "path": "51db708fe1ca94211593f219848bb1a0.jpeg"
+    },
+    "question": "given an image and context, generate alt-text for the image.\ncontext:\nthese oven-baked italian meatballs are incredibly tender and juicy, with irresistible flavors that will have you craving for more. made with ground beef, onion, garlic, parmesan cheese, and parsley, these meatballs are seasoned to perfection, ready to be served with your favorite sauce in less than 30 minutes!",
+    "chosen": "italian meatballs served over a bowl of spaghetti",
+    "rejected": "meatballs and spaghetti on a plate with text overlay that reads \"melt-in-your-mouth italian meatballs\"",
+    "text": "{\"question\": \"given an image and context, generate alt-text for the image.\\ncontext:\\nthese oven-baked italian meatballs are incredibly tender and juicy, with irresistible flavors that will have you craving for more. made with ground beef, onion, garlic, parmesan cheese, and parsley, these meatballs are seasoned to perfection, ready to be served with your favorite sauce in less than 30 minutes!\", \"chosen\": \"italian meatballs served over a bowl of spaghetti\", \"rejected\": \"meatballs and spaghetti on a plate with text overlay that reads \\\"melt-in-your-mouth italian meatballs\\\"\"}",
+    "origin_dataset": "pinterest",
+    "origin_split": "{}",
+    "idx": 33,
+    "image_path": "51db708fe1ca94211593f219848bb1a0.jpeg"
+  },
+  {
+    "ds_name": "pinterest_data",
+    "image": {
+      "path": "2daa695fa76820a9fca51aee28a567d7.jpeg"
+    },
+    "question": "given an image and context, generate alt-text for the image.\ncontext:\nthis list of 30 easy japanese recipes is perfect for beginners who want to dip their toes in the world of japanese cooking! there's no need to sacrifice flavor either, these simple recipes are delicious too! whether you're looking for a simple side dish or a satisfying meal, this list has a dish for any occasion and plenty to choose from!",
+    "chosen": "a collage of 4 easy japanese meals including teriyaki chicken donburi, yakisoba stir-fried noodles, easy cucumber pickles with ginger, and the ultimate tonkatsu pork cutlet.",
+    "rejected": "an image of japanese food with the title overlay reading 30 beginner japanese recipes",
+    "text": "{\"question\": \"given an image and context, generate alt-text for the image.\\ncontext:\\nthis list of 30 easy japanese recipes is perfect for beginners who want to dip their toes in the world of japanese cooking! there's no need to sacrifice flavor either, these simple recipes are delicious too! whether you're looking for a simple side dish or a satisfying meal, this list has a dish for any occasion and plenty to choose from!\", \"chosen\": \"a collage of 4 easy japanese meals including teriyaki chicken donburi, yakisoba stir-fried noodles, easy cucumber pickles with ginger, and the ultimate tonkatsu pork cutlet.\", \"rejected\": \"an image of japanese food with the title overlay reading 30 beginner japanese recipes\"}",
+    "origin_dataset": "pinterest",
+    "origin_split": "{}",
+    "idx": 35,
+    "image_path": "2daa695fa76820a9fca51aee28a567d7.jpeg"
+  },
+  {
+    "ds_name": "pinterest_data",
+    "image": {
+      "path": "87c14e917a831a3d0a4b702fcce40403.jpeg"
+    },
+    "question": "given an image and context, generate alt-text for the image.\ncontext:\nflamin' hot cheetos mozzarella cheese sticks are the perfect appetizer for folks who like a kick! they are coated with crushed flamin' hot cheetos and then cooked crispy in an air fryer. i will also let you know how to make these in the oven or deep-fried in oil!",
+    "chosen": "overhead image of a metal plate with a small metal cup in the center filled with ranch, and bright red mozzarella sticks surrounding it.",
+    "rejected": "a plate full of fried mozzarella sticks with dip in the middle",
+    "text": "{\"question\": \"given an image and context, generate alt-text for the image.\\ncontext:\\nflamin' hot cheetos mozzarella cheese sticks are the perfect appetizer for folks who like a kick! they are coated with crushed flamin' hot cheetos and then cooked crispy in an air fryer. i will also let you know how to make these in the oven or deep-fried in oil!\", \"chosen\": \"overhead image of a metal plate with a small metal cup in the center filled with ranch, and bright red mozzarella sticks surrounding it.\", \"rejected\": \"a plate full of fried mozzarella sticks with dip in the middle\"}",
+    "origin_dataset": "pinterest",
+    "origin_split": "{}",
+    "idx": 36,
+    "image_path": "87c14e917a831a3d0a4b702fcce40403.jpeg"
+  },
+  {
+    "ds_name": "pinterest_data",
+    "image": {
+      "path": "09009aa279076d76c40b0ee1023141c6.jpeg"
+    },
+    "question": "given an image and context, generate alt-text for the image.\ncontext:\nthe easiest pizza recipe, this is greek yogurt pizza dough in 20 minutes! this greek yogurt pizza is going to become your new favorite recipe: healthy, high protein and so easy without yeast.",
+    "chosen": "easy healthy greek yogurt pizza recipe without yeast",
+    "rejected": "someone is cutting into a pizza with a knife.",
+    "text": "{\"question\": \"given an image and context, generate alt-text for the image.\\ncontext:\\nthe easiest pizza recipe, this is greek yogurt pizza dough in 20 minutes! this greek yogurt pizza is going to become your new favorite recipe: healthy, high protein and so easy without yeast.\", \"chosen\": \"easy healthy greek yogurt pizza recipe without yeast\", \"rejected\": \"someone is cutting into a pizza with a knife.\"}",
+    "origin_dataset": "pinterest",
+    "origin_split": "{}",
+    "idx": 51,
+    "image_path": "09009aa279076d76c40b0ee1023141c6.jpeg"
+  },
+  {
+    "ds_name": "pinterest_data",
+    "image": {
+      "path": "4ffaa1e71f50f27956d452ce288d5664.png"
+    },
+    "question": "given an image and context, generate alt-text for the image.\ncontext:\nthis peach mochi recipe features whole peaches wrapped in a thin layer of homemade, chewy mochi. four simple ingredients—glutinous rice flour, cornstarch, sugar, and water—are used to make the mochi wrapper. it can be done in the microwave or on the stovetop.",
+    "chosen": "plate of peach mochi; one of them cut in half.",
+    "rejected": "peach mochi on paper plates with mint leaves, titled \"soft & chewy peach mochi\"",
+    "text": "{\"question\": \"given an image and context, generate alt-text for the image.\\ncontext:\\nthis peach mochi recipe features whole peaches wrapped in a thin layer of homemade, chewy mochi. four simple ingredients—glutinous rice flour, cornstarch, sugar, and water—are used to make the mochi wrapper. it can be done in the microwave or on the stovetop.\", \"chosen\": \"plate of peach mochi; one of them cut in half.\", \"rejected\": \"peach mochi on paper plates with mint leaves, titled \\\"soft & chewy peach mochi\\\"\"}",
+    "origin_dataset": "pinterest",
+    "origin_split": "{}",
+    "idx": 55,
+    "image_path": "4ffaa1e71f50f27956d452ce288d5664.png"
+  },
+  {
+    "ds_name": "pinterest_data",
+    "image": {
+      "path": "dd37add55c31c838b53d5655564a6371.png"
+    },
+    "question": "given an image and context, generate alt-text for the image.\ncontext:\nare you looking for a yummy breakfast idea for school mornings? this easy fluffy buttermilk pancakes is a must-try! it's sweet and has an airy texture. pun the best fluffy buttermilk pancake recipe and prepare a classic back-to-school food idea.",
+    "chosen": "a stack of fluffy buttermilk pancakes topped with butter and syrup",
+    "rejected": "buttermilk pancakes are stacked on top of each other with syrup drizzled over them",
+    "text": "{\"question\": \"given an image and context, generate alt-text for the image.\\ncontext:\\nare you looking for a yummy breakfast idea for school mornings? this easy fluffy buttermilk pancakes is a must-try! it's sweet and has an airy texture. pun the best fluffy buttermilk pancake recipe and prepare a classic back-to-school food idea.\", \"chosen\": \"a stack of fluffy buttermilk pancakes topped with butter and syrup\", \"rejected\": \"buttermilk pancakes are stacked on top of each other with syrup drizzled over them\"}",
+    "origin_dataset": "pinterest",
+    "origin_split": "{}",
+    "idx": 90,
+    "image_path": "dd37add55c31c838b53d5655564a6371.png"
+  },
+  {
+    "ds_name": "pinterest_data",
+    "image": {
+      "path": "a33acb2003c95e49d65fe600187d9a94.jpeg"
+    },
+    "question": "given an image and context, generate alt-text for the image.\ncontext:\nour new map is now available for download! the home, forge, and store of a renowned smith. tell me, what might this place be called? tags: tabletop rpg, d&d, dnd 5e, pathfinder, fantasy battle map, blacksmith, weaponsmith, armorsmith, forge, dwarf, dwarven, shop, trader, workshop, residence, home, building, store, foundry,",
+    "chosen": "the metalsmith’s workshop battle map",
+    "rejected": "an overhead view of a living room and dining area",
+    "text": "{\"question\": \"given an image and context, generate alt-text for the image.\\ncontext:\\nour new map is now available for download! the home, forge, and store of a renowned smith. tell me, what might this place be called? tags: tabletop rpg, d&d, dnd 5e, pathfinder, fantasy battle map, blacksmith, weaponsmith, armorsmith, forge, dwarf, dwarven, shop, trader, workshop, residence, home, building, store, foundry,\", \"chosen\": \"the metalsmith’s workshop battle map\", \"rejected\": \"an overhead view of a living room and dining area\"}",
+    "origin_dataset": "pinterest",
+    "origin_split": "{}",
+    "idx": 171,
+    "image_path": "a33acb2003c95e49d65fe600187d9a94.jpeg"
+  },
+  {
+    "ds_name": "pinterest_data",
+    "image": {
+      "path": "06a82de8b12948eae7e38de1caaa7ab5.jpeg"
+    },
+    "question": "given an image and context, generate alt-text for the image.\ncontext:\n'an orbital map of the meridian system. i don't know if i can make it much clearer than that' — person, head curator of the orrery",
+    "chosen": "an orbital map of the meridian system",
+    "rejected": "an orbital map of the meridian system is shown in black and white",
+    "text": "{\"question\": \"given an image and context, generate alt-text for the image.\\ncontext:\\n'an orbital map of the meridian system. i don't know if i can make it much clearer than that' — person, head curator of the orrery\", \"chosen\": \"an orbital map of the meridian system\", \"rejected\": \"an orbital map of the meridian system is shown in black and white\"}",
+    "origin_dataset": "pinterest",
+    "origin_split": "{}",
+    "idx": 191,
+    "image_path": "06a82de8b12948eae7e38de1caaa7ab5.jpeg"
+  }
+]

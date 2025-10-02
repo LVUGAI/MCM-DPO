@@ -1,0 +1,112 @@
+[
+  {
+    "ds_name": "twitter_data",
+    "image": {
+      "path": "3_1535294439354138624.jpg"
+    },
+    "origin_dataset": "AltTextData",
+    "origin_split": "{}",
+    "idx": 30,
+    "image_path": "3_1535294439354138624.jpg",
+    "text": "{\"question\": \"Given an image and context, generate alt-text for the image.Context:\\nWho y'all got in the NBA problematic off? (New School edition). The stuff they did is written in the alt-text.\", \"chosen\": \"Smiling basketball player wearing a teal and white Vancouver Grizzlies jersey with number 12.\", \"rejected\": \"A man wearing a teal Grizzlies jersey, smiling.\"}"
+  },
+  {
+    "ds_name": "twitter_data",
+    "image": {
+      "path": "3_1532349479017500675.jpg"
+    },
+    "origin_dataset": "AltTextData",
+    "origin_split": "{}",
+    "idx": 58,
+    "image_path": "3_1532349479017500675.jpg",
+    "text": "{\"question\": \"Given an image and context, generate alt-text for the image.Context:\\npH (potential of hydrogen) is the measure of the concentration of hydrogen ions in a water-based substance.\\n\\npH is on a scale of acids and bases from 0-14, with neutral right in the middle at 7. 💧\\n\\n🍋 A pH of less than 7 indicates an acid.\\n\\n🧼 More than 7, it's a base.\", \"chosen\": \"pH scale from 1 to 14 with ACID in red, NEUTRAL in yellow, and BASE in blue, showing examples of acidic, neutral, and alkaline substances.\", \"rejected\": \"A chart showing the pH scale with examples of acids and bases.\"}"
+  },
+  {
+    "ds_name": "twitter_data",
+    "image": {
+      "path": "3_1534906036657823746.jpg"
+    },
+    "origin_dataset": "AltTextData",
+    "origin_split": "{}",
+    "idx": 112,
+    "image_path": "3_1534906036657823746.jpg",
+    "text": "{\"question\": \"Given an image and context, generate alt-text for the image.Context:\\nWe’re kicking off two weeks of Convocation ceremonies today! We’re thrilled to celebrate the accomplishments of the classes of 2020, 2021 and 2022 in person and provide well-deserved opportunity to cross the stage to the cheers of their loved ones.\", \"chosen\": \"Graduates in caps and gowns seated and clapping at a graduation ceremony.\", \"rejected\": \"A group of graduates in caps and gowns celebrating at a ceremony.\"}"
+  },
+  {
+    "ds_name": "twitter_data",
+    "image": {
+      "path": "3_1534233268685529090.jpg"
+    },
+    "origin_dataset": "AltTextData",
+    "origin_split": "{}",
+    "idx": 201,
+    "image_path": "3_1534233268685529090.jpg",
+    "text": "{\"question\": \"Given an image and context, generate alt-text for the image.Context:\\nPresenting: the CUS (Codex Of Unusual Size)\", \"chosen\": \"Spine of a 1917 Baltimore City Directory with gold lettering on red and brown leather.\", \"rejected\": \"A very large book with lots of text on the cover.\"}"
+  },
+  {
+    "ds_name": "twitter_data",
+    "image": {
+      "path": "3_1532390346642046977.jpg"
+    },
+    "origin_dataset": "AltTextData",
+    "origin_split": "{}",
+    "idx": 341,
+    "image_path": "3_1532390346642046977.jpg",
+    "text": "{\"question\": \"Given an image and context, generate alt-text for the image.Context:\\nI thought I'd share this in case anyone else wants to do the swim. It's about 7.5k. We always swim on the tow path side (cross left to right side at Kingston). Use a tow float and get someone to paddle next to you. Go early before there's anyone else on the river. Enjoy.\", \"chosen\": \"Person on a paddle board and three people swimming in a river with a stone bridge in the background.\", \"rejected\": \"People swimming in a river with a bridge in the background.\"}"
+  },
+  {
+    "ds_name": "twitter_data",
+    "image": {
+      "path": "3_1533514817511768065.jpg"
+    },
+    "origin_dataset": "AltTextData",
+    "origin_split": "{}",
+    "idx": 348,
+    "image_path": "3_1533514817511768065.jpg",
+    "text": "{\"question\": \"Given an image and context, generate alt-text for the image.Context:\\n- Twoface Toothpaste\\n- Seafood logo\", \"chosen\": \"Blue and red toothpaste tube labeled \\\"Twoface\\\" with a picture of a man with half his face burned off.\", \"rejected\": \"A tube of toothpaste with a picture of Two-Face on it.\"}"
+  },
+  {
+    "ds_name": "twitter_data",
+    "image": {
+      "path": "3_1534556827223998473.jpg"
+    },
+    "origin_dataset": "AltTextData",
+    "origin_split": "{}",
+    "idx": 381,
+    "image_path": "3_1534556827223998473.jpg",
+    "text": "{\"question\": \"Given an image and context, generate alt-text for the image.Context:\\nperson passed away 4 years ago and it’s still hard. Anyway, here’s one of my favorite quotes from Kitchen Confidential. \\n\\nI hope wherever Chef is that he’s happy and at peace\", \"chosen\": \"Quote from Kitchen Confidential about the innocence of childhood.\", \"rejected\": \"A quote from Kitchen Confidential by person.\"}"
+  },
+  {
+    "ds_name": "twitter_data",
+    "image": {
+      "path": "3_1532768825174802432.jpg"
+    },
+    "origin_dataset": "AltTextData",
+    "origin_split": "{}",
+    "idx": 420,
+    "image_path": "3_1532768825174802432.jpg",
+    "text": "{\"question\": \"Given an image and context, generate alt-text for the image.Context:\\nVirtual Pilgrim - Te Araroa Day 1,180\\n\\nTime yesterday with family was lovely &amp; enjoying this pink fried egg flower.\\n\\nSpent much of the day resting,\\neyes to the skies.\\n\\nLoved the Jubilee Service &amp;\\ndeft touches, above all,\\n+Sarah &amp; person starting the service\\nin thanks for HM Queen.\", \"chosen\": \"Close-up of a single purple flower with a yellow center and green leaves.\", \"rejected\": \"A pink flower with a yellow center.\"}"
+  },
+  {
+    "ds_name": "twitter_data",
+    "image": {
+      "path": "3_1533556321403822081.jpg"
+    },
+    "origin_dataset": "AltTextData",
+    "origin_split": "{}",
+    "idx": 445,
+    "image_path": "3_1533556321403822081.jpg",
+    "text": "{\"question\": \"Given an image and context, generate alt-text for the image.Context:\\nConflict - The Final Conflict\\nWordy fuckin anarchists. Alt text didn't match up with the screenshots perfectly but all the lyrics are in alt.\", \"chosen\": \"Black and white image of text reading \\\"The Final Conflict\\\" with an excerpt about the difficulties of labor and being defeated.\", \"rejected\": \"Lyrics from the song \\\"The Final Conflict\\\" by Conflict. The lyrics are about the struggles of the Animal Liberation Front (ALF) and the systemic power imbalances in society.\"}"
+  },
+  {
+    "ds_name": "twitter_data",
+    "image": {
+      "path": "3_1533936208409047040.jpg"
+    },
+    "origin_dataset": "AltTextData",
+    "origin_split": "{}",
+    "idx": 490,
+    "image_path": "3_1533936208409047040.jpg",
+    "text": "{\"question\": \"Given an image and context, generate alt-text for the image.Context:\\nI fucking love trading for things. Traded my old record player for this sick piece of art done by los_archies over on Instagram. It's a huge painting!\", \"chosen\": \"Large, framed abstract painting in shades of purple with stylized letters and swirls.\", \"rejected\": \"A painting with a lot of lettering on it. It looks like a cool piece of art.\"}"
+  }
+]
