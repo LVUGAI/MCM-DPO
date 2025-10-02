@@ -1,18 +1,28 @@
 <div align="center">
 
-#  MCM-DPO
-</div>
+### ACM MM 2025
 
-This is the Source Code of Paper: **MCM-DPO: Multifaceted Cross-Modal Direct Preference Optimization for Alter-text Generation**
+### National University of Singapore, Fudan University
+
+This repository provides the code and data for paper: [MCM-DPO: Multifaceted Cross-Modal Direct Preference Optimization for Alter-text Generation](https://arxiv.org/pdf/2510.00647). 
+
+
+</div>
 
 
 
 ## Brief Introduction 
+### (1) Task: Alt-text Generation
 
-1. **Main Motivation**
+Alt-text generation is the task of automatically producing short textual descriptions for images, typically in the form of alternative text (alt-text) associated with online content. Unlike generic image captioning, which often emphasizes detailed visual narratives, alt-text is designed to be concise, context-relevant, and accessible. Its primary purpose is to support blind and low-vision users, enabling them to perceive and interact with visual information through screen readers or assistive technologies.
 
-The task of alternative text (alt-text) generation aims to produce concise, context-dependent textual descriptions of images, which has achieved state-of-the-art performance with current multimodal large language models (MLLMs) using supervised fine-tuning (SFT).  
-However, existing methods are limited by the challenges of SFT training and issues inherent in alt-text data, preventing further performance improvements.  
+<p align="center" width="100%">
+<a target="_blank"><img src="./images/example.png" alt="example" style="width: 50%; min-width: 200px; display: block; margin: auto;"></a>
+</p>
+
+### (2) Main Motivation
+
+Alt-text generation remains challenging despite advances in MLLMs. Current methods, relying on noisy annotations or generic captioning, often produce verbose or irrelevant outputs, resulting in a clear performance gap between model-generated alt-text and human-preferred descriptions. This gap limits accessibility for blind and low-vision users, motivating the need for models that align more closely with human preferences to deliver concise, accurate, and context-aware alt-text.
 
 
 <p align="center" width="100%">
@@ -21,7 +31,7 @@ However, existing methods are limited by the challenges of SFT training and issu
 
  <!-- ![framework](./images/performance_gap.png) -->
 
-2. **The Framework of  MCM-DPO**
+### (3) The Framework of MCM-DPO
 To address these challenges, we propose a novel approach, Multifaceted Cross-Modal Direct Preference Optimization (MCM-DPO), which optimizes preferences across Single Preference, Pairwise Preference, and Multi-Preference dimensions, covering text, image, and cross-modal factors.  
 
 <p align="center" width="100%">
@@ -29,10 +39,10 @@ To address these challenges, we propose a novel approach, Multifaceted Cross-Mod
 </p>
 
 
- <!-- ![framework](./images/framework.png) -->
 
+### (4) Exploration of Training Paradigms
 
-3. **Exploration of Training Paradigms** MLLMs comprise a vision encoder, LLMs, and a projection. Current works freeze the vision encoder, training only the LLMs and projection. This limits cross-modal integration, leading to hallucinations and errors. To assess how training paradigms affect MLLMs in new domains (e.g., social media) and tasks, we explore four paradigms (See the following figure). Training occurs in two stages: (1) supervised fine-tuning (SFT) on large datasets and (2) preference optimization (DPO or MCM-DPO) on smaller high-quality datasets. The explored paradigms are:
+MLLMs typically consist of a vision encoder, a language model, and a projection layer. Most existing approaches freeze the vision encoder and train only the language model and projection, which restricts cross-modal integration and often results in hallucinations and errors. To evaluate how different training paradigms influence MLLMs when adapting to new domains (e.g., social media) and tasks, we investigate four paradigms (illustrated in the following figure). Training follows a two-stage pipeline: (1) supervised fine-tuning (SFT) on large-scale datasets, and (2) preference optimization (DPO or MCM-DPO) on smaller, high-quality datasets. The paradigms examined are:
 
 
 <p align="center" width="100%">
@@ -51,18 +61,12 @@ For more technical details, kindly refer to the our paper.
 
 ## 1. Preparing Dataset
 
-### Training data
-To collect a high-quality dataset of human preferences for building an automatic alt-text generation system, we gathered human-annotated alt-text datasets from two widely used social media platforms: Twitter and Pinterest, our dataset construction process involves three steps: 
-* (1) Collection of User-written Data; 
-* (2) Grammar Correction; 
-* (3) Preference Collection. 
-
-
+To collect a high-quality dataset of human preferences for building an automatic alt-text generation system, we gathered human-annotated alt-text datasets from two widely used social media platforms: Twitter and Pinterestn. 
 Sample data from Twitter and Pinterest are provided in the `./data/twitter` and  `./data/pinterest`.
 
-### Evaluation data
+We will release the full training set.
 
-The evaluation data can be downloaded from [here](https://drive.google.com/) and placed in the playground/data directory
+
 
 
 ## 2. Environment Preparation
@@ -88,7 +92,7 @@ pip install -e .
 
 
 ## 3. Training
-Firstly, configure the training dataset name data_path and the checkpoint name output_dir.
+Firstly, configure the training dataset name `data_path` and the checkpoint name `output_dir`.
 
 * #### LLaVA SFT/MCMDPO/DPO Training
 ```Shell
